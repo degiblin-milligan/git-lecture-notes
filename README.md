@@ -24,7 +24,8 @@
     * Either prevents two people from making changes to the same file
     * Or provides a way to merge the two versions of a file together
 
-
+<img src="https://mermaid.ink/svg/pako:eNqllF1vmzAUhv-K5SniJo1MSELgYlJC0uRiF1NbbdLCLgwcGqtgI2PWplH--wxV-AipuqkSAuu8j99zfA7yEYciAuziweDoc4QYZ8pF1RIhQ-0hBcNFRkBzMIbt6A8qGQ0SyI0a11ImWUrlwROJkOW-L9P5DOzpeWtDPMCLaqg4jvvIUsgIZAMRQlpQwjjUWk6jKIFAimfeQnIIBY_a5XzAdYvq5lMgFesxs6kdzK0r2GXxvT6cwRpRkvI8oxK4Mt6oU_nRr9Ng4PM4Ec_hnkqFHlZvcl4Ej5Jme7RiuZIsKBREZ3uEVjej70WSjG6-rpvgugzmex1cdYLeHsInUSgt3DbCrRZEmjLVNWmcN01wc81503HeNsK25dwyqU_k43uQf0CisY8buUq-u4NUKEB3kInfjQY8uurzU8inXFHFBEfWpdl6902ENLn0qs6-K3cy_og8kR3-M9HkMtHm_UTbDxPVizqbp_8RSRP22h74otPsZSMsW81evMd7jeBd5_vDMS-PufjEcHpmy89MoPffeP_WZp_jIU5BppRF-lKsLjYfVxeej129jCCmRaJK-5NGaaHE_YGH2FWygCEusogqWDGqi0qxG9Mk19GMcuwe8Qt2x9bItmaEzB3LJMTWzxAfsGtOnNHMse2Jbc6IOXdmpyF-FUI7kJEzJY5pTsjYJmPLMqeV3a9KLHOe_gKUL6MT">
+<!-- 
 ```mermaid
 %%{
   init: {
@@ -79,7 +80,7 @@ flowchart TD
             C[Working Copy]
         end
     end
-```
+``` -->
 
 ## What is Git?
 
@@ -295,8 +296,11 @@ git pull
 
 ![](./img/code-git-push.png)
 
+## General Workflow
 
+![](https://mermaid.ink/svg/pako:eNqNkktvozAUhf-K5VHEhol4hJcXlfpYzqqtZqQRmxu4EKvGpsZomkb572NgEqjCYjZg7vnO4frqnmihSqSMbjanXBLCJTeMjEdCHHPABh1GnD106LjL6k_QHPYCO-eKW6nVvAF9fFRC6cH3LUpjTKKLdSZe8cPMVFVVt8iD0iXqGfI8bwEJLvGqdVCWAvda_ZELpOO1BPFf0Jd21kGhVPu16zhK9mm4QAxqw1c6vxnCBbwiRoPsWtAojTNR5-FlH-fNJpe57PC9R1ngE4daQzMxQ0vkSXFZk19Kv13iyfg1VB9VeyTf7-7Ii4F6KNxrBEZqboi948wv5ZH_oQoQ5BlbNdGFahpuJgPKf84ZGj3P2CiDC1Pbd4eJXEir8RWa4rAaurzJxDaoa1yPvYXbXohcUpdaVwO8tIs-LmtOxyXOKbPHEivohcmpnbZFoTfq5SgLyozu0aV9W4K5DJ6yCkRnqy1Iyk70g7LM32ZBkkZZkO28LPZ9lx4p88N4m6Ze5Pu7IAs9Lz679FMpG-BtkygKwzBJ_WAXhIkXj2m_R3H45fkvxSAZ6A)
 
+<!-- 
 ```mermaid
 %%{
   init: {
@@ -324,7 +328,7 @@ sequenceDiagram
     Remote Repo ->> Local Repo: git fetch
     Local Repo ->> Working Copy: git merge
     Remote Repo ->> Working Copy: git pull
-```
+``` -->
 
 # Branching
 
@@ -362,9 +366,11 @@ git merge branch_name --allow-unrelated-histories
 git branch -d branch_name
 ```
 
+## Branching Workflow
 
+![](https://mermaid.ink/svg/pako:eNqdlMuOmzAUhl_FOlXEhkZcQgBnN63UTbuq1EXFxmAHrAE7ckxnphHvXl8SJkqTNCoLMOf_ztWyD9BIygDDYnGoBEJccI2RWyIU6I4NLMAo2ErF9joIz-0_iOKk7tk-mB2c2HIdWZ8PWbFmeXZyOmnxHS25oz0pIpruK6lZ70K8dFyzO1ByHWrkMHDtiCfSPLdKjoJadE8o7Vmt5Iu45fBJ9lK9h_XQZD_mNS0WlaiEKeKLIrvOi94ZcYpRBa1dmflukF15aVPBOenXtesCUfYLSUWZwig9Qh1rnuWorXQjwYx8rC11J9fRCc3Wk-dAuPCmgamWuTquJLCYDz9jc4ZjB53UW_56aiK-yOPVB_rw4AOt_N3LPChf47GgK2nmWZ2Dm3_O5nbAy_HcinixlQ-p18j_3zVbEoRg_o1IzV3gTnMF7pRXYENQtiVjry05GZSMWn5_Ew1grUYWwrijRLPPnLSKDIC3pN8b644IwAd4BRzH2TJOV1GZJmVRpOWqDOENcBpFyzgv11lU5skqSqYQfktpAsTLyD1plq-TvFgXuYv204k-JaNcS_XNX17uDpv-AFXVfpY)
 
-
+<!-- 
 ```mermaid
 %%{
   init: {
@@ -405,7 +411,7 @@ gitGraph
     commit
     checkout main
     merge dev id: "git checkout main; git merge dev"
-```
+``` -->
 
 ## Example
 
